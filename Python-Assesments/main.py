@@ -80,5 +80,20 @@ if x > 10:
     print("but not above 20.")
 
 
+#for loop
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
 
-#
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    break
+  print(x)
+
+for x in range(6):
+  print(x)
+else:
+  print("Finally finished!")
+
+
